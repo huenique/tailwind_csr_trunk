@@ -2,7 +2,6 @@
 
 This is a template demonstrating how to integrate [TailwindCSS](https://tailwindcss.com/) with the [Leptos](https://github.com/leptos-rs/leptos) web framework and the [trunk](https://github.com/thedodd/trunk) tool.
 
-
 Install Tailwind and build the CSS:
 
 `Trunk.toml` is configured to build the CSS automatically.
@@ -52,8 +51,8 @@ If you're using VS Code, add the following to your `settings.json`
 
 Install [Tailwind CSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 
-    Install "VS Browser" extension, a browser at the right window.
-    Allow vscode Ports forward: 3000, 3001.
+  Install "VS Browser" extension, a browser at the right window.
+  Allow vscode Ports forward: 3000, 3001.
 
 ## Notes about Tooling
 
@@ -65,6 +64,6 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate`, and `sass`. If
 4. `cargo install cargo-generate` - install `cargo-generate` binary (should be installed automatically in future)
 5. `npm install -g sass` - install `dart-sass` (should be optional in future
 
-
 ## Attribution
-This is based on the original Tailwind example (../examples/tailwind)
+
+This is based on the original [Tailwind example](https://github.com/leptos-rs/leptos/tree/6fac92cb6298f1bfa72464de47e33e47b5e5857d/examples/tailwind_csr_trunk) (<https://github.com/leptos-rs/leptos/tree/main/examples/tailwind_csr_trunk>)
